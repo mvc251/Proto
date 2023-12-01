@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Empresa</title>
+    <link rel="stylesheet" href="./css/agregrarempresa.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agregar Empresa</h1>
+        <div class="navbar">
+            <a href="index.html">Inicio</a>
+        </div>
+    </header>
+
+    <form>
+        <h2>Agregar Empresa</h2>
+
+        <label for="nombreEmpresa">Nombre de la Empresa:</label>
+        <input type="text" id="nombreEmpresa" name="nombreEmpresa" required>
+
+        <label for="rfc">RFC:</label>
+        <input type="text" id="rfc" name="rfc" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="giro">Giro:</label>
+        <input type="text" id="giro" name="giro" required>
+
+        <label for="area">Área:</label>
+        <input type="text" id="area" name="area" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="alumnosServicioSocial">Número de Alumnos a Servicio Social:</label>
+        <input type="number" id="alumnosServicioSocial" name="alumnosServicioSocial" required>
+
+        <label for="alumnosPracticasProfesionales">Número de Alumnos a Prácticas Profesionales:</label>
+        <input type="number" id="alumnosPracticasProfesionales" name="alumnosPracticasProfesionales" required>
+
+        <div class="navbar">
+            <button type="button">Editar</button>
+            <button type="button">Eliminar</button>
+            <button type="submit">Guardar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

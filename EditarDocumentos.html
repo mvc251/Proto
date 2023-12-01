@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Documentos</title>
+    <link rel="stylesheet" href="css/editardocumentos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Practicas Profesionales</h1>
+        <div class="nav-buttons">
+            <a href="index.html" class="btn">Inicio</a>
+        </div>
+    </header>
+
+    <div class="card-container">
+        <div class="card">
+            <h2>Solicitud de Servicio Social</h2>
+            <button onclick="editarDocumento('solicitudServicioSocial')">Editar</button>
+        </div>
+
+        <div class="card">
+            <h2>Solicitud de Prácticas Profesionales</h2>
+            <button onclick="editarDocumento('solicitudPracticasProfesionales')">Editar</button>
+        </div>
+
+        <div class="card">
+            <h2>Reporte de Servicio Social</h2>
+            <button onclick="editarDocumento('reporteServicioSocial')">Editar</button>
+        </div>
+
+        <div class="card">
+            <h2>Reporte de Prácticas Profesionales</h2>
+            <button onclick="editarDocumento('reportePracticasProfesionales')">Editar</button>
+        </div>
+
+        
+    </div>
+
+    <script>
+        function editarDocumento(tipoDocumento) {
+            // Puedes agregar lógica aquí para redirigir o realizar otras acciones según el tipo de documento.
+            console.log(`Editando documento: ${tipoDocumento}`);
+        }
+
+        function irAInicio() {
+            // Puedes agregar lógica aquí para redirigir a la página de inicio.
+            console.log('Redirigiendo a la página de inicio');
+        }
+    </script>
+
+</body>
+</html>

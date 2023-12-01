@@ -1,0 +1,43 @@
+.navbar {
+  background-color: rgba(242, 239, 239, 0); /* Fondo completamente transparente */
+}
+
+body {
+  background-image: url("/img/back.jpg"); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px); /* Ajusta el valor del desenfoque según sea necesario */
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.sidebar {
+  background-color: #3498db;
+  color: #fff;
+  height: 92.5vh;
+}
+
+.sidebar .nav-item {
+  flex-grow: 1;
+}
+
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px; /* Puedes ajustar el relleno según tus preferencias */
+}

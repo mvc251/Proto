@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Reporte de Servicio Social</title>
+    <link rel="stylesheet" href="css/reporterserviciosocial.css">
+</head>
+<body>
+
+    <header>
+        <h1>Servicio Social</h1>
+        <div class="nav-bar">
+            <div class="nav-buttons">
+                <a href="index.html">Inicio</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <form>
+            <h2>Crear Reporte de Servicio Social</h2>
+
+            <label for="nombreAlumno">Nombre del Alumno:</label>
+            <input type="text" id="nombreAlumno" name="nombreAlumno" required>
+
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+
+            <label for="carrera">Carrera:</label>
+            <input type="text" id="carrera" name="carrera" required>
+
+            <label for="fechaInicio">Fecha de Inicio:</label>
+            <input type="date" id="fechaInicio" name="fechaInicio" required>
+
+            <label for="fechaFin">Fecha de Fin:</label>
+            <input type="date" id="fechaFin" name="fechaFin" required>
+
+            <label for="actividadesRealizadas">Actividades Realizadas:</label>
+            <textarea id="actividadesRealizadas" name="actividadesRealizadas" rows="4" required></textarea>
+
+            <label for="observaciones">Observaciones:</label>
+            <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+
+            <button type="submit">Crear Reporte</button>
+        </form>
+    </section>
+
+</body>
+</html>

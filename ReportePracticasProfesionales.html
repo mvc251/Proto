@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Reporte de Practicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        label {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <h2>Crear Reporte de Servicio Social</h2>
+
+        <label for="nombreAlumno">Nombre del Alumno:</label>
+        <input type="text" id="nombreAlumno" name="nombreAlumno" required>
+
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula" required>
+
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required>
+
+        <label for="fechaInicio">Fecha de Inicio:</label>
+        <input type="date" id="fechaInicio" name="fechaInicio" required>
+
+        <label for="fechaFin">Fecha de Fin:</label>
+        <input type="date" id="fechaFin" name="fechaFin" required>
+
+        <label for="actividadesRealizadas">Actividades Realizadas:</label>
+        <textarea id="actividadesRealizadas" name="actividadesRealizadas" rows="4" required></textarea>
+
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+
+        <button type="submit">Crear Reporte</button>
+    </form>
+
+</body>
+</html>
